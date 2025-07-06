@@ -4,13 +4,15 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "next dev",
     "mock-api": "json-server --watch db.json --port 3001",
-    "build": "vite build",
+    "build": "next build",
+    "start": "next start",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
+    "next": "^15.3.5",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
