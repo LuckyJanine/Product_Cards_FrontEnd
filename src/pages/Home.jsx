@@ -40,8 +40,19 @@ function Home(){
         }
     ]
 
+    const handleSearch = () => {
+
+    }
+
     return (
         <div className="home">
+            <form onSubmit={handleSearch} className="search-form">
+                <input 
+                    type="text" placeholder="Search for products ..." 
+                    className="search-input"
+                />
+                <button type="submit" className="search-button">Search</button>
+            </form> 
             <div className="products-grid">
                 {products.map((product) => (
                     <ProductCard product={product} key={product.id}/>
