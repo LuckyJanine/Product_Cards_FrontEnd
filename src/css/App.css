@@ -1,0 +1,34 @@
+header{
+  background: #51688a;
+  color: #F5F7FA;
+  text-align: center;
+  margin: 20px -30px;
+  border: 4px solid #F1E3DD;
+}
+
+header h1{
+  font-size: 40px;
+  margin: 15px 0;
+}
+
+header .data-source{
+  margin: 20px 0;
+}
+
+header .data-source a{
+  text-decoration: underline;
+  color: #F1E3DD
+}
+
+header .data-source a:hover{
+  color: #fff;
+}
+
+.main-content {
+  flex: 1;
+  padding: 2rem;
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
